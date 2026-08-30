@@ -54,7 +54,7 @@ html {
 
 body {
 
-    font-family: "Inter", sans-serif;
+    font-family: "Open Sans", sans-serif;
 
     background:
         radial-gradient(
@@ -350,7 +350,7 @@ img {
 
 .hero h1 {
 
-    font-family: "Space Grotesk", sans-serif;
+    font-family: "Open Sans", sans-serif;
 
     font-size:
         clamp(
@@ -499,7 +499,7 @@ img {
 
 .stat strong {
 
-    font-family: "Space Grotesk";
+    font-family: "Open Sans", sans-serif;
 
     font-size: 22px;
 
@@ -750,7 +750,7 @@ img {
 
     color: #45445b;
 
-    font-family: "Space Grotesk";
+    font-family: "Open Sans", sans-serif;
 
     font-weight: 600;
 
@@ -800,7 +800,7 @@ img {
 .about-content h2,
 .cta h2 {
 
-    font-family: "Space Grotesk";
+    font-family: "Open Sans", sans-serif;
 
     font-size:
         clamp(38px, 5vw, 58px);
@@ -934,7 +934,7 @@ img {
 
     color: #4d4b66;
 
-    font-family: "Space Grotesk";
+    font-family: "Open Sans", sans-serif;
 
     font-weight: 700;
 
@@ -968,7 +968,7 @@ img {
 
 .service-card h3 {
 
-    font-family: "Space Grotesk";
+    font-family: "Open Sans", sans-serif;
 
     font-size: 24px;
 
@@ -1099,7 +1099,7 @@ img {
 
 .about-symbol {
 
-    font-family: "Space Grotesk";
+    font-family: "Open Sans", sans-serif;
 
     font-size: 180px;
 
@@ -1120,7 +1120,7 @@ img {
 
 .about-box h3 {
 
-    font-family: "Space Grotesk";
+    font-family: "Open Sans", sans-serif;
 
     font-size: 27px;
 
@@ -1249,7 +1249,7 @@ img {
 
     color: #47455f;
 
-    font-family: "Space Grotesk";
+    font-family: "Open Sans", sans-serif;
 
     font-weight: 700;
 
@@ -1269,7 +1269,7 @@ img {
 
 .process-card h3 {
 
-    font-family: "Space Grotesk";
+    font-family: "Open Sans", sans-serif;
 
     font-size: 20px;
 
@@ -1355,7 +1355,7 @@ img {
 
     bottom: -80px;
 
-    font-family: "Space Grotesk";
+    font-family: "Open Sans", sans-serif;
 
     font-size: 200px;
 
@@ -2014,7 +2014,7 @@ body::before {
 .hero::after { content: ""; position: absolute; z-index: -1; width: 760px; height: 760px; right: -300px; bottom: -380px; border-radius: 50%; background: radial-gradient(circle, rgba(150,79,255,.18), transparent 66%); }
 .hero-container { grid-template-columns: 1.07fr .93fr; gap: clamp(35px, 6vw, 88px); }
 .hero-badge { padding: 8px 13px; background: rgba(103,127,255,.11); border-color: rgba(136,159,255,.28); color: #d7e0ff; font-family: monospace; letter-spacing: .04em; }
-.hero h1 { margin-top: 22px; font-size: clamp(52px, 6.5vw, 90px); letter-spacing: -.075em; }
+.hero h1 { margin-top: 22px; font-size: clamp(52px, 6.5vw, 90px); font-weight: 800; letter-spacing: -.06em; }
 .hero-content > p { color: var(--muted); }
 .btn { min-height: 52px; font-weight: 800; }
 .btn-primary { background: var(--gradient); }
@@ -2037,7 +2037,7 @@ body::before {
 .section { padding: 112px 0; }
 .section-heading { margin-bottom: 54px; }
 .section-tag { color: #b0a1ff; }
-.section-heading h2, .about-content h2, .cta h2 { letter-spacing: -.065em; }
+.section-heading h2, .about-content h2, .cta h2 { font-weight: 800; letter-spacing: -.05em; }
 
 .services { background: linear-gradient(180deg, transparent, rgba(96,120,255,.045), transparent); }
 .services-grid { gap: 17px; }
