@@ -1351,9 +1351,9 @@ img {
 
     position: absolute;
 
-    right: -30px;
+    right: -10px;
 
-    bottom: -80px;
+    bottom: -60px;
 
     font-family: "Open Sans", sans-serif;
 
@@ -2122,3 +2122,4 @@ footer { background: #050814; }
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
